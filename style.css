@@ -280,3 +280,51 @@ footer {
 }
 
 
+/* --- General Content Page Styles --- */
+
+.content-section {
+    padding: 60px 0;
+    min-height: 600px;
+    background-color: #fff;
+}
+
+.content-section h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+.text-content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    max-width: 800px; /* Keeps lines from getting too long to read */
+    color: #444;
+}
+
+/* PDF Download Button Styling */
+.download-area {
+    margin-top: 40px;
+}
+
+.pdf-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #b71c1c; /* Deep Red (Matches your theme?) */
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.pdf-btn:hover {
+    background-color: #8f1515; /* Darker Red */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.pdf-btn i {
+    font-size: 1.2rem;
+}

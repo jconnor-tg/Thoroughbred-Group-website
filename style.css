@@ -175,10 +175,13 @@ footer {
 }
 
 .social-links a {
-    color: #fff;
-    margin: 0 10px;
-    font-size: 1.2rem;
+    color: #fff;        /* Keep existing colour */
+    margin: 0 10px;     /* Keep existing spacing */
+    font-size: 1.2rem;  /* Keep existing size */
+    text-decoration: none; /* <--- ADD THIS LINE. This kills the underline. */
+    display: inline-block; /* Ensures the link wraps the icon tightly */
 }
+
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
@@ -337,3 +340,4 @@ footer {
     height: 100%;
     border: 0;
 }
+

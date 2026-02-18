@@ -84,7 +84,7 @@ body {
 .btn {
     display: inline-block;
     background-color: #EFF4FB;
-    color: #fff;
+    color: #163254;
     padding: 10px 25px;
     text-decoration: none;
     border-radius: 5px;
@@ -123,7 +123,7 @@ body {
 }
 
 .member-card h3 {
-    color: #0056b3;
+    color: #163254;
     margin-bottom: 15px;
 }
 
@@ -141,23 +141,23 @@ body {
 
 .details i {
     width: 20px;
-    color: #0056b3;
+    color: #163254;
 }
 
 .website-link {
     display: block;
     text-align: center;
     margin-top: 20px;
-    color: #0056b3;
+    color: #163254;
     text-decoration: none;
     font-weight: bold;
-    border: 1px solid #0056b3;
+    border: 1px solid #163254;
     padding: 8px;
     border-radius: 4px;
 }
 
 .website-link:hover {
-    background-color: #0056b3;
+    background-color: #163254;
     color: #fff;
 }
 

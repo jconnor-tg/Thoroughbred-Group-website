@@ -40,7 +40,7 @@ body {
 }
 
 .logo img {
-    height: 60px;   /* Sets the height of the logo */
+    height: 80px;   /* Sets the height of the logo */
     width: auto;    /* Keeps the logo from looking squashed or stretched */
     display: block; /* Removes tiny gaps below the image */
 }

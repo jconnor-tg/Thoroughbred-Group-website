@@ -282,18 +282,6 @@ footer {
 
 /* --- General Content Page Styles --- */
 
-.content-section {
-    padding: 60px 0;
-    min-height: 600px;
-    background-color: #fff;
-}
-
-.content-section h1 {
-    color: #2c3e50;
-    margin-bottom: 30px;
-    border-bottom: 2px solid #eee;
-    padding-bottom: 15px;
-}
 
 .text-content p {
     margin-bottom: 20px;
@@ -311,7 +299,7 @@ footer {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background-color: #b71c1c; /* Deep Red (Matches your theme?) */
+    background-color: #4BAFF8; /* Deep Red (Matches your theme?) */
     color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
@@ -321,10 +309,11 @@ footer {
 }
 
 .pdf-btn:hover {
-    background-color: #8f1515; /* Darker Red */
+    background-color: #163254; /* Darker Red */
     transform: translateY(-2px); /* Slight lift effect */
 }
 
 .pdf-btn i {
     font-size: 1.2rem;
 }
+

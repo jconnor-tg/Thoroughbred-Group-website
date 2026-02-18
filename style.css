@@ -239,7 +239,7 @@ footer {
 }
 
 .news-content h3 a {
-    text-decoration: none;
+    
     color: #163254; /* Use your main blue or red color here */
     transition: color 0.3s;
 }
@@ -278,4 +278,5 @@ footer {
         font-size: 0.9rem;
     }
 }
+
 

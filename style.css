@@ -240,12 +240,12 @@ footer {
 
 .news-content h3 a {
     text-decoration: none;
-    color: #0056b3; /* Use your main blue or red color here */
+    color: #163254; /* Use your main blue or red color here */
     transition: color 0.3s;
 }
 
 .news-content h3 a:hover {
-    color: #003366; /* Darker shade for hover */
+    color: #4BAFF8; /* Darker shade for hover */
     text-decoration: underline;
 }
 
@@ -278,3 +278,4 @@ footer {
         font-size: 0.9rem;
     }
 }
+

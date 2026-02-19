@@ -354,33 +354,56 @@ footer {
     text-decoration: underline;
 }
 
-/* --- Mobile Responsive Fixes --- */
+/* --- Hamburger Menu Icon (Hidden on Desktop) --- */
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+/* --- Mobile Responsive Fixes (Hamburger Menu) --- */
 @media (max-width: 768px) {
-    /* 1. Remove the 100px height lock and stack the layout */
+    /* Keep logo and hamburger on the same line */
     .site-header .container {
         height: auto; 
-        flex-direction: column; 
-        padding: 15px 10px;
+        flex-wrap: wrap; 
+        padding: 15px 20px;
     }
 
-    /* 2. Shrink the logo slightly */
-    .logo img {
-        height: 45px; 
-        margin-bottom: 10px;
+    /* Show the hamburger icon */
+    .menu-toggle {
+        display: block;
     }
 
-    /* 3. Tidy up the navigation links */
+    /* Make the nav take up the full width below the header */
+    nav {
+        width: 100%;
+    }
+
+    /* Hide the links by default on mobile */
     .nav-links {
-        display: flex;
-        flex-wrap: wrap; /* Lets links drop to a new line neatly */
-        justify-content: center;
-        gap: 10px; /* Space between links */
-        padding: 0;
+        display: none; 
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding-top: 15px;
     }
 
-    /* 4. Make the text smaller and reduce the padding */
+    /* This class gets added by JavaScript when tapped */
+    .nav-links.active {
+        display: flex; 
+    }
+
+    /* Space out the links for easy tapping */
+    .nav-links li {
+        margin: 10px 0;
+        width: 100%;
+    }
+    
     .nav-links li a {
-        font-size: 0.85rem;
-        padding: 5px 8px;
+        display: block;
+        padding: 10px;
+        font-size: 1.1rem;
     }
 }

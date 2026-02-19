@@ -341,3 +341,15 @@ footer {
     border: 0;
 }
 
+/* Footer Text Links */
+.footer-link {
+    color: #EFF4FB; /* Light grey so it doesn't clash */
+    text-decoration: none;
+    margin-left: 5px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #ffffff; /* Brightens to pure white when hovered */
+    text-decoration: underline;
+}

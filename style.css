@@ -353,3 +353,34 @@ footer {
     color: #ffffff; /* Brightens to pure white when hovered */
     text-decoration: underline;
 }
+
+/* --- Mobile Responsive Fixes --- */
+@media (max-width: 768px) {
+    /* 1. Remove the 100px height lock and stack the layout */
+    .site-header .container {
+        height: auto; 
+        flex-direction: column; 
+        padding: 15px 10px;
+    }
+
+    /* 2. Shrink the logo slightly */
+    .logo img {
+        height: 45px; 
+        margin-bottom: 10px;
+    }
+
+    /* 3. Tidy up the navigation links */
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap; /* Lets links drop to a new line neatly */
+        justify-content: center;
+        gap: 10px; /* Space between links */
+        padding: 0;
+    }
+
+    /* 4. Make the text smaller and reduce the padding */
+    .nav-links li a {
+        font-size: 0.85rem;
+        padding: 5px 8px;
+    }
+}

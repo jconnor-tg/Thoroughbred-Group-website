@@ -380,6 +380,11 @@ footer {
         padding: 1px 5px;
     }
 
+.logo img {
+        max-height: 55px; /* Increased from the laptop's 40px */
+        width: auto;
+    }
+    
     /* Show the hamburger icon */
     .menu-toggle {
         display: block;
@@ -416,6 +421,7 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 
 

@@ -365,6 +365,27 @@ footer {
     cursor: pointer;
 }
 
+/* --- Laptop & Tablet Responsive Fixes --- */
+@media (max-width: 1024px) {
+    /* 1. Reduce the padding on the sides of the header */
+    .site-header .container {
+        padding: 0 15px; 
+    }
+
+    /* 2. Shrink the logo to a happy medium */
+    .logo img {
+        max-height: 40px; 
+    }
+
+    /* 3. Make the navigation text slightly smaller and tighter so it fits */
+    .nav-links li a {
+        font-size: 0.95rem; 
+        padding: 5px 10px; /* Brings the links closer together */
+    }
+}
+
+
+
 /* --- Mobile Responsive Fixes (Hamburger Menu) --- */
 @media (max-width: 768px) {
     /* Keep logo and hamburger on the same line */
@@ -410,6 +431,7 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 
 

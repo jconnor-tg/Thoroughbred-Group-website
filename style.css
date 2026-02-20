@@ -29,9 +29,11 @@ body {
 }
 
 .site-header .container {
-    display: flex;
+display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px; /* Reduced from 100px to make it slimmer */
+    padding: 0 20px;
 }
 
 
@@ -40,7 +42,7 @@ body {
 }
 
 .logo img {
-    height: 80px;   /* Sets the height of the logo */
+    height: 60px;   /* Sets the height of the logo */
     width: auto;    /* Keeps the logo from looking squashed or stretched */
     display: block; /* Removes tiny gaps below the image */
 }
@@ -369,7 +371,7 @@ footer {
     .site-header .container {
         height: auto; 
         flex-wrap: wrap; 
-        padding: 15px 20px;
+        padding: 5px 10px;
     }
 
     /* Show the hamburger icon */
@@ -408,4 +410,5 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 

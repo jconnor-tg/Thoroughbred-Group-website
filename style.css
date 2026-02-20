@@ -42,7 +42,7 @@ display: flex;
 }
 
 .logo img {
-    height: 60px;   /* Sets the height of the logo */
+    height: 80px;   /* Sets the height of the logo */
     width: auto;    /* Keeps the logo from looking squashed or stretched */
     display: block; /* Removes tiny gaps below the image */
 }
@@ -353,7 +353,7 @@ footer {
 
     /* 2. Shrink the logo to a happy medium */
     .logo img {
-        max-height: 40px; 
+        max-height: 60px; 
     }
 
     /* 3. Make the navigation text slightly smaller and tighter so it fits */
@@ -416,6 +416,7 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 
 

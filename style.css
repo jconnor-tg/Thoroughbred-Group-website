@@ -412,16 +412,17 @@ footer {
 
     /* Space out the links for easy tapping */
     .nav-links li {
-        margin: 2px 0;
+        margin: 0px 0;
         width: 100%;
     }
     
     .nav-links li a {
         display: block;
-        padding: 10px;
+        padding: 8px;
         font-size: 1.1rem;
     }
 }
+
 
 
 

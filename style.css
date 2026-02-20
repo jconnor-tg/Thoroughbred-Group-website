@@ -360,7 +360,7 @@ footer {
 
 
 /* --- Laptop & Tablet Responsive Fixes --- */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     /* 1. Reduce the padding on the sides of the header */
     .site-header .container {
         padding: 0 15px; 
@@ -431,6 +431,7 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 
 

@@ -32,7 +32,7 @@ body {
 display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px; /* Reduced from 100px to make it slimmer */
+    height: 40px; /* Reduced from 100px to make it slimmer */
     padding: 0 20px;
 }
 
@@ -371,7 +371,7 @@ footer {
     .site-header .container {
         height: auto; 
         flex-wrap: wrap; 
-        padding: 5px 10px;
+        padding: 1px 5px;
     }
 
     /* Show the hamburger icon */
@@ -410,5 +410,6 @@ footer {
         font-size: 1.1rem;
     }
 }
+
 
 

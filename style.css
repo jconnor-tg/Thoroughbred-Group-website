@@ -388,7 +388,7 @@ footer {
     /* Show the hamburger icon */
     .menu-toggle {
         display: block;
-        margin-right: 50px; /* Pushes the icon slightly away from the right edge */
+        margin-right: 25px; /* Pushes the icon slightly away from the right edge */
     }
 
     /* Make the nav take up the full width below the header */
@@ -412,16 +412,17 @@ footer {
 
     /* Space out the links for easy tapping */
     .nav-links li {
-        margin: 5px 0;
+        margin: 2px 0;
         width: 100%;
     }
     
     .nav-links li a {
         display: block;
-        padding: 5px;
+        padding: 10px;
         font-size: 1.1rem;
     }
 }
+
 
 
 

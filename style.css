@@ -348,7 +348,7 @@ footer {
 @media (max-width: 1400px) {
     /* NEW: Reduce the top and bottom padding of the entire header */
     .site-header {
-        padding: 5px 0; /* Reduced from 20px to make it slimmer */
+        padding: 2px 0; /* Reduced from 20px to make it slimmer */
     }
 
     /* 1. Reduce the padding on the sides of the header */

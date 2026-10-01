@@ -348,12 +348,12 @@ footer {
 @media (max-width: 1400px) {
     /* NEW: Reduce the top and bottom padding of the entire header */
     .site-header {
-        padding: 2px 0; /* Reduced from 20px to make it slimmer */
+        padding: 0px 0; /* Reduced from 20px to make it slimmer */
     }
 
     /* 1. Reduce the padding on the sides of the header */
     .site-header .container {
-        padding: 0 15px; 
+        padding: 0 10px; 
     }
 
     /* 2. Shrink the logo a tiny bit more to fit the shorter header */
